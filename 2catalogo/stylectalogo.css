@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.product img{
+    width: 150px;
+    height: 120px;
+    margin: 10px 0 0 10px; 
+}
+.product h3{
+    font-size: 1.7em;
+    margin-top: 5px;
+    margin-bottom: 5px; margin-left: 5px; margin-right: 5px;
+}
+.product p{
+    margin-left: 5px;
+}
+.card{
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgb(219, 194, 51), 0 1px 2px rgb(219, 194, 51);    
+}
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: none;
+    border-radius: 55px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.8);
+    z-index: 100;
+}
+.btn-wsp:hover{
+    background: #fff;
+}

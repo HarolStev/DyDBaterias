@@ -1,0 +1,21 @@
+.local{
+    border-radius: 10px;
+    box-shadow: -4px 2px 10px rgb(219, 194, 51), 4px 2px 10px rgb(219, 194, 51);
+}
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: none;
+    border-radius: 55px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.8);
+    z-index: 100;
+}
+.btn-wsp:hover{
+    background: #fff;
+}

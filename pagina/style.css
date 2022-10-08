@@ -1,0 +1,37 @@
+*{
+    margin: 0px; 
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+}
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: none;
+    border-radius: 55px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.8);
+    z-index: 100;
+}
+.btn-wsp:hover{
+    text-decoration: none;
+    color:  #0df053;
+    background: #fff;
+}
